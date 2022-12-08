@@ -49,7 +49,7 @@
 	},
 	"url": "https://github.com/RainingDragon/fvtt-ready-set-roll-sw5e",
 	"manifest": "https://raw.githubusercontent.com/RainingDragon/fvtt-ready-set-roll-sw5e/working-sw5e/module.json",
-	"download": "https://github.com/RainingDragon/fvtt-ready-set-roll-sw5e/releases/download/release-1.0.0/ready-set-roll-sw5e-1.0.0.zip",
+	"download": "https://github.com/RainingDragon/fvtt-ready-set-roll-sw5e/releases/download/1.0.0/ready-set-roll-sw5e-1.0.0.zip",
 	"bugs": "https://github.com/RainingDragon/fvtt-ready-set-roll-sw5e/issues",
 	"readme": "https://github.com/RainingDragon/fvtt-ready-set-roll-sw5e/blob/working-sw5e/README.md"
 }
