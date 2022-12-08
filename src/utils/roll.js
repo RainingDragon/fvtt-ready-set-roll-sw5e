@@ -118,13 +118,13 @@ export class RollUtility {
     static async rollSkill(actor, skillId, roll) {
         LogUtility.log(`Quick rolling skill check from Actor '${actor.name}'.`);
 
-        if (!(skillId in CONFIG.SW5E.skills)) {
+        if (!(skillId in CONFIG.SW5E.skills) && !(skillId in CONFIG.SW5E.starshipSkills)) {
             LogUtility.logError(CoreUtility.localize(`${MODULE_SHORT}.messages.error.labelNotInDictionary`,
                 { type: "Skill", label: skillId, dictionary: "CONFIG.SW5E.skills" }));
             return null;
         }
 
-        const skill = CONFIG.SW5E.skills[skillId];
+        const skill = CONFIG.SW5E.skills[skillId] || CONFIG.SW5E.starshipSkills[skillId];
         let title = CoreUtility.localize(skill.label);
         title += SettingsUtility.getSettingValue(SETTING_NAMES.SHOW_SKILL_ABILITIES) ? ` (${CONFIG.SW5E.abilities[skill.ability]})` : "";
 
