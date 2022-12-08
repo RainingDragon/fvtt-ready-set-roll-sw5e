@@ -1,7 +1,6 @@
 # Ready Set Roll for sw5e - FoundryVTT Module
-![Latest Version](https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fraw.githubusercontent.com%2FMangoFVTT%2Ffvtt-ready-set-roll-5e%2Fmaster%2Fmodule.json&label=Latest%20Release&prefix=v&query=$.version&colorB=blue&style=for-the-badge)
-![Foundry Versions](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dfor-the-badge%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FMangoFVTT%2Ffvtt-ready-set-roll-5e%2Fmaster%2Fmodule.json&color=ff601e&label=Compatible%20Foundry%20Versions)
-![GitHub all releases](https://img.shields.io/github/downloads/MangoFVTT/fvtt-ready-set-roll-5e/total?style=for-the-badge&label=Module%20Downloads)
+
+## This is a work-in-progress transition to sw5e for Ready Set Roll; there *might* be a few issues, be aware!
 
 **Ready Set Roll for sw5e** is a Foundry VTT module that accelerates the built in rolling system of the [Foundry sw5e system](https://github.com/unrealkakeman89/sw5e). It allows for quick rolls with advantage, disadadvantage, and other modifiers for skills, items, ability checks, and saving throws. This module is a complete rewrite and modernisation of [RedReign](https://github.com/RedReign)'s [Better Rolls for 5e](https://github.com/RedReign/FoundryVTT-BetterRolls5e) module, which is no longer supported, and no longer functional as of more recent versions of FoundryVTT.
 
