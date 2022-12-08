@@ -203,7 +203,7 @@ export class QuickRoll {
 			...CoreUtility.getRollSound()
 		};
 
-		Hooks.callAll(HOOKS_SWD5E.PRE_DISPLAY_CARD, this.item, update);
+		Hooks.callAll(HOOKS_SW5E.PRE_DISPLAY_CARD, this.item, update);
 
 		return update;
 	}
